@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@0,300;1,700&family=Rock+Salt&display=swap');
 div {
     max-width: 1600px;
 }
@@ -5,15 +6,20 @@ div {
     margin: 0 auto;
 }
 nav a {
+    font-family: 'Rock Salt', 'Bradley Hand', serif;
     text-align: center;
     color: #0000ff;
     text-decoration: none;
+    padding: 35px;
 }
 h1 {
     text-align: center;
 }
 .home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-size: 2em;
     color:#0000ff;
+    margin-top: 10px;
 }
 h4 {
     text-align: center;
@@ -23,13 +29,18 @@ h4 {
     text-align: center;
 }
 main section {
+    font-family:'Rock Salt', 'Bradley Hand', serif;
     text-align: center;
 }
 #background {
     height: 725px;
 }
 body {
+    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-size: 22px;
     background-color:#f0ffff;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#f0ffff;
@@ -39,9 +50,13 @@ nav a:hover {
     color:#0000ff;
 }
 .book, .join {
+    font-size: 18px;
     background-color: #f0ffff;
     color:#000080;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hoven, .join:hoven {
     background-color: #f0ffff;
@@ -52,35 +67,57 @@ nav a:hover {
     color: #000000;
 }
 .msg {
+    font-family: 'Rock Salt', 'Bradley Hand', serif;
     background-color: #f0ffff;
     color:#0000ff;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
+    font-family: 'Rock Salt', 'Bradley Hand', serif;
     color: #0000ff;
+    margin: 0;
 }
-msg p {
+.msg p {
+    font-family: 'Rock Salt', 'Bradley Hand', serif;
     color:#0000ff;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #f0f8ff;
     color: #000080;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
+    font-family: 'Rock Salt', 'Bradley Hand', serif;
     color:#0000ff;
     text-decoration: none;
 }
 footer p {
+    font-family: 'Rock Salt', 'Bradley Hand', serif;
     font-size: 1.2em;
 }
 footer a:hover {
     color:#000080;
+}
+footer .social img {
+    padding-top: 15px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+.card-img{
+    border: 10px solid #000000;
+}
+main section img {
+    box-sizing: border-box;
 }
