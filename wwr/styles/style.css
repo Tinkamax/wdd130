@@ -17,7 +17,7 @@ h1 {
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', serif;
     font-size: 2em;
-    color:#0000ff;
+    color:#0b0b31;
     margin-top: 10px;
 }
 h4 {
@@ -37,16 +37,16 @@ main section {
 body {
     font-family: 'Rock Salt', 'Bradley Hand', serif;
     font-size: 22px;
-    background-color:#f0ffff;
+    background-color:#18caca;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color:#f0ffff;
+    background-color:#27ecec;
 }
 nav a:hover {
-    background-color: #f0ffff;
-    color:#0000ff;
+    background-color: #537070;
+    color:#b42d23;
 }
 .book, .join {
     font-size: 18px;
@@ -58,7 +58,7 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hoven, .join:hoven {
-    background-color: #f0ffff;
+    background-color: #80c2c2;
     color:#0000ff;
 }
 #background {
@@ -67,8 +67,8 @@ nav a:hover {
 }
 .msg {
     font-family: 'Rock Salt', 'Bradley Hand', serif;
-    background-color: #f0ffff;
-    color:#0000ff;
+    background-color: #dbe9e9;
+    color:#050535;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -80,7 +80,7 @@ nav a:hover {
 .msg p {
     font-family: 'Rock Salt', 'Bradley Hand', serif;
     color:#0000ff;
-    font-size: 8em;
+    font-size: .8em;
     padding-bottom: 15px;
 }
 footer {
@@ -113,6 +113,9 @@ footer .social img {
 }
 #hero-img {
     width: 100%;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 .card-img{
     border: 10px solid #000000;
