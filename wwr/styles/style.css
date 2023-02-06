@@ -5,9 +5,9 @@ div {
     margin: 0 auto;
 }
 nav a {
-    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     text-align: center;
-    color: #0000ff;
+    color: #16163f;
     text-decoration: none;
     padding: 35px;
 }
@@ -15,7 +15,7 @@ h1 {
     text-align: center;
 }
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
     color:#0b0b31;
     margin-top: 10px;
@@ -28,14 +28,14 @@ h4 {
     text-align: center;
 }
 main section {
-    font-family:'Rock Salt', 'Bradley Hand', serif;
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
     text-align: center;
 }
 #background {
     height: 725px;
 }
 body {
-    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 22px;
     background-color:#18caca;
     margin: 0;
@@ -66,40 +66,40 @@ nav a:hover {
     color: #000000;
 }
 .msg {
-    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     background-color: #dbe9e9;
     color:#050535;
     line-height: 1.5em;
     padding: 35px;
 }
 .msg h2 {
-    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     color: #0000ff;
     margin: 0;
 }
 .msg p {
-    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     color:#0000ff;
     font-size: .8em;
     padding-bottom: 15px;
 }
 footer {
-    background-color: #f0f8ff;
+    background-color: #dcdf5b;
     color: #000080;
     padding: 25px 50px;
     margin-top: 200px;
 }
 footer a {
-    font-family: 'Rock Salt', 'Bradley Hand', serif;
-    color:#0000ff;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color:#0d0d1f;
     text-decoration: none;
 }
 footer p {
-    font-family: 'Rock Salt', 'Bradley Hand', serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 1.2em;
 }
 footer a:hover {
-    color:#000080;
+    color:#030314;
 }
 footer .social img {
     padding-top: 15px;
