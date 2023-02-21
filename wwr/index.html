@@ -9,18 +9,27 @@
 </head>
 <body>
     <header>
-        header {
+        <header {
             display: grid;
             grid-template-columns: 150px auto;
-        }
+        }>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">        
+            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            logo_link {
+                padding-top: 5px;
+                justify-self: center;
+                align-self: center;
+            }        
         </a>
         <nav>
             <a href="index.html">Home</a>
             <a href="#">Page 2</a>
             <a href="site-plan-rafting.html">SitePlan</a>
             <a href="contactus.html">Contact Us</a>
+            <nav {
+                display: flex;
+                justify-content : space-around;
+            }>
         </nav>
     </header>
     <div id="hero-box">
